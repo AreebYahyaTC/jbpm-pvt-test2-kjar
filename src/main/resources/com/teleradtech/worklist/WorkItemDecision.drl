@@ -1,0 +1,28 @@
+package com.teleradtech.worklist;
+
+rule "Rule for Ordered"
+ruleflow-group "workItem-rule-set-ex"
+when
+    $data : WorkItem(state == "ordered")
+then
+    $data.setNextState("unassigned");
+    update($data);
+end
+
+rule "Rule for Unassigned"
+ruleflow-group "workItem-rule-set-ex"
+when
+    $data : WorkItem(state == "unassigned")
+then
+    $data.setNextState("complete");
+    update($data);
+end
+
+rule "Rule for Assigned"
+ruleflow-group "workItem-rule-set-ex"
+when
+    $data : WorkItem(state == "assigned")
+then
+    $data.setNextState("complete");
+    update($data);
+end

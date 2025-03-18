@@ -8,14 +8,12 @@
             "documentation" : "jbpm-workitems-rest/index.html",
 
             "parameters" : [
-                                "Cookie" : new StringDataType()
-                ,"ConnectTimeout" : new StringDataType()
+                                "ConnectTimeout" : new StringDataType()
                 ,"ResultClass" : new StringDataType()
                 ,"ContentType" : new StringDataType()
                 ,"AcceptCharset" : new StringDataType()
                 ,"Headers" : new StringDataType()
                 ,"AuthUrl" : new StringDataType()
-                ,"CookiePath" : new StringDataType()
                 ,"Method" : new StringDataType()
                 ,"ReadTimeout" : new StringDataType()
                 ,"Url" : new StringDataType()
@@ -37,7 +35,7 @@
                                  "org.jbpm:jbpm-workitems-rest:7.57.0.Final"
 
             ],
-            "icon" : "defaultresticon.png"
+            "icon" : "Rest.png"
 
         ]
 

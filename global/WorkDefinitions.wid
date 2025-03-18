@@ -55,78 +55,21 @@
 
     [
         "name" : "Rest",
-        "displayName" : "Rest",
-        "category" : "jbpm-workitems-rest",
-        "description" : "",
-        "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
-        "documentation" : "jbpm-workitems-rest/index.html",
-        "icon" : "defaultresticon.png",
-
         "parameters" : [
-            "ConnectTimeout" : new StringDataType(),
-            "ResultClass" : new StringDataType(),
-            "ContentType" : new StringDataType(),
-            "AcceptCharset" : new StringDataType(),
-            "Headers" : new StringDataType(),
-            "AuthUrl" : new StringDataType(),
-            "Method" : new StringDataType(),
-            "ReadTimeout" : new StringDataType(),
-            "Url" : new StringDataType(),
-            "ContentTypeCharset" : new StringDataType(),
-            "HandleResponseErrors" : new StringDataType(),
             "ContentData" : new StringDataType(),
+            "Url" : new StringDataType(),
+            "Method" : new StringDataType(),
+            "ConnectTimeout" : new StringDataType(),
+            "ReadTimeout" : new StringDataType(),
             "Username" : new StringDataType(),
-            "Content" : new StringDataType(),
-            "AcceptHeader" : new StringDataType(),
-            "AuthType" : new StringDataType(),
             "Password" : new StringDataType()
         ],
         "results" : [
-            "Result" : new StringDataType()
-        ]
-    ],
-
-    [
-        "name" : "Rest",
-        "displayName" : "Rest",
-        "category" : "jbpm-workitems-rest",
-        "description" : "",
-        "defaultHandler" : "mvel: new org.jbpm.process.workitem.rest.RESTWorkItemHandler()",
-        "documentation" : "jbpm-workitems-rest/index.html",
-
-        "parameters" : [
-            "Cookie" : new StringDataType()
-            ,"ConnectTimeout" : new StringDataType()
-            ,"ResultClass" : new StringDataType()
-            ,"ContentType" : new StringDataType()
-            ,"AcceptCharset" : new StringDataType()
-            ,"Headers" : new StringDataType()
-            ,"AuthUrl" : new StringDataType()
-            ,"CookiePath" : new StringDataType()
-            ,"Method" : new StringDataType()
-            ,"ReadTimeout" : new StringDataType()
-            ,"Url" : new StringDataType()
-            ,"ContentTypeCharset" : new StringDataType()
-            ,"HandleResponseErrors" : new StringDataType()
-            ,"ContentData" : new StringDataType()
-            ,"Username" : new StringDataType()
-            ,"Content" : new StringDataType()
-            ,"AcceptHeader" : new StringDataType()
-            ,"AuthType" : new StringDataType()
-            ,"Password" : new StringDataType()
-
+            "Result" : new ObjectDataType(),
         ],
-        "results" : [
-                            "Result" : new StringDataType()
-
-        ],
-        "mavenDependencies" : [
-                             "org.jbpm:jbpm-workitems-rest:7.57.0.Final"
-
-        ],
-        "icon" : "defaultresticon.png"
-
-    ],
+        "displayName" : "REST",
+        "icon" : "defaultservicenodeicon.png"
+      ],
 
     [
         "name" : "WebService",

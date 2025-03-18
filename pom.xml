@@ -16,6 +16,15 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+<!--  <dependencies>-->
+<!--    &lt;!&ndash; Add jbpm-workitems-rest dependency &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>org.jbpm</groupId>-->
+<!--      <artifactId>jbpm-workitems-rest</artifactId>-->
+<!--      <version>${version.org.kie}</version>-->
+<!--    </dependency>-->
+<!--  </dependencies>-->
+
   <build>
     <plugins>
       <plugin>

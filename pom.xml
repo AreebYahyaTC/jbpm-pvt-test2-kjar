@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.teleradtech</groupId>
   <artifactId>ris-worklist-kjar</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.3-SNAPSHOT</version>
   <packaging>kjar</packaging>
   <name>ris-worklist-kjar</name>
 
